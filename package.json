@@ -1,0 +1,31 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "Mailer for Ceruba",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Philip-Nunoo/ceruba_mailer.git"
+  },
+  "keywords": [
+    "mailer",
+    "nodemailer",
+    "ceruba"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0"
+  },
+  "author": "Philip A. Nunoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Philip-Nunoo/ceruba_mailer/issues"
+  },
+  "homepage": "https://github.com/Philip-Nunoo/ceruba_mailer#readme"
+}
